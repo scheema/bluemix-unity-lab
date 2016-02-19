@@ -1,0 +1,49 @@
+{
+ "name": "NodejsStarterApp",
+  "version": "0.0.1",
+  "description": "A nodejs app for Bluemix that connects the Unity SDK to Bluemix services",
+  "dependencies": {
+    "body-parser": "^1.11.0",
+    "cookie-parser": "^1.4.0",
+    "cloudant": "*",
+    "csurf": "^1.8.3",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-rate-limit": "^2.0.2",
+    "express-secure-only": "^0.2.1",
+    "express-session": "*",
+    "helmet": "^0.13.0",
+    "i18next": "^1.10.2",
+    "method-override": "2.3.3",
+    "morgan": "^1.6.1",
+    "passport": "*",
+    "passport-idaas-openidconnect": "*",
+    "request": "^2.65.0",
+    "watson-developer-cloud": "^1.0.0-beta.1"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TBD"
+  },
+  "author": "IBM Corp.",
+  "contributors": [
+    {
+      "name": "Ryan Gross",
+      "email": "ryan@sparkpluggames.com"
+    },
+    {
+      "name": "Srinivas Cheemalapati",
+      "email": "sriniva@us.ibm.com"
+    }
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "TBD"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}

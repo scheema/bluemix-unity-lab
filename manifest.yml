@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: UnityBroker-SC
+  host: unitybroker-sc
+  disk_quota: 1024M
+  services:
+  - Tradeoff Analytics-qf
+  - Cloudant NoSQL DB-hq
